@@ -114,4 +114,4 @@ for i, Xtest in enumerate(test_features):
 total_correct = 0
 with open('results.csv','w') as f:
   lines = [f"{key},{train_label_output[list(preds[key].keys())[0].split('_')[0]]}" for key in preds]
-  f.writelines(lines)
+  f.write('\n'.join(lines))
