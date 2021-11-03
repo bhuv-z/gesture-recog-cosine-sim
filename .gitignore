@@ -1,0 +1,10 @@
+frames/
+testfeatures/
+traindata/
+trainfeatures/
+test/
+CSE535Project2_Bhuvaneshwar Mohan.zip
+predictions.json
+results.csv
+trash.py
+__pycache__
